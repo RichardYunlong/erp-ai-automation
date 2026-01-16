@@ -1,28 +1,30 @@
 # ERP智能自动化测试框架
 ---
-<div align="center">
-![图片](https://img.shields.io/badge/Node.js-v18.17%2B-green)
-![图片](https://img.shields.io/badge/Playwright-v1.40%2B-blue)
-![图片](https://img.shields.io/badge/License-MIT-yellow)
 一套基于 Playwright 的现代化、AI 增强的 ERP 系统网页自动化测试解决方案
 项目概述 • 快速开始 • 功能特性 • 目录结构 • 使用指南
-</div>
 ## 📖 项目概述
+
 本项目是一个专为 ERP 系统设计的自动化测试框架，基于 Microsoft Playwright 构建，集成了智能元素定位、多环境配置、可视化报告等特性，旨在提升 ERP 系统测试的覆盖率和可靠性。
 > 核心优势：免费开源、易于上手、功能强大，专为 ERP 系统测试场景优化。
 ## 🚀 快速开始
 ### 环境要求
+
 - 操作系统: Windows 10/11, macOS 10.14+, Ubuntu 20.04+
 - Node.js: v18.17.0 或更高版本
 - 内存: 8GB RAM (推荐 16GB+)
 - 磁盘空间: 5GB 可用空间
+- 
 ### 5分钟安装部署
+
 #### 1. 一键环境配置 (Windows)
+
 ```bash
 # 下载并运行安装脚本
 .\setup-windows.bat
 ```
-> 该脚本将自动完成 Node.js 检查、依赖安装、浏览器下载等所有步骤。
+
+该脚本将自动完成 Node.js 检查、依赖安装、浏览器下载等所有步骤。
+
 #### 2. 手动安装（适用于所有平台）
 ```bash
 # 1. 克隆项目
